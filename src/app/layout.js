@@ -1,6 +1,10 @@
-import Navbar from '@/components/Navbar.jsx';
-import Head from 'next/head';
 import './globals.css'
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 const RootLayout = ({ children }) => {
   return (

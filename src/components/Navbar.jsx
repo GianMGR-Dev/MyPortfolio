@@ -1,10 +1,10 @@
-import Button from './Button.jsx';
+import Button from './NavButton.jsx';
 
 const Navbar = () => {
-    return <nav className='bg-purple-300 flex justify-center gap-4 p-4'>
-        <Button link='/'>Home</Button>
-        <Button link='/WorksPage'>Works</Button>
-        <Button link='/ExperiencePage'>Experience</Button>
+    return <nav className='b flex justify-center gap-4 p-4'>
+        <Button link='/home'>Home</Button>
+        <Button link='/works'>Works</Button>
+        <Button link='/experience'>Experience</Button>
     </nav>;
 }
 

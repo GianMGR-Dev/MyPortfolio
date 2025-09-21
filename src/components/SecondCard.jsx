@@ -11,7 +11,7 @@ const SecondCard = () => {
                     — Introduction
                 </p>
 
-                <h1 className="text-2xl md:text-5xl lg:text-4xl font-bold leading-tight mb-4">
+                <h1 className="text-2xl md:text-5xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-4 after:content-[''] after:block after:w-24 after:h-1.5 after:rounded-full after:bg-[var(--terciary-color)] after:mt-2">
                     Fullstack developer
                 </h1>
 

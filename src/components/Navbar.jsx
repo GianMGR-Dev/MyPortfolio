@@ -5,6 +5,7 @@ const Navbar = () => {
         <Button link='/home'>Home</Button>
         <Button link='/works'>Works</Button>
         <Button link='/experience'>Experience</Button>
+        <Button link='/experience'>Contact</Button>
     </nav>;
 }
 

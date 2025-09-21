@@ -10,7 +10,6 @@ const poppins = Poppins({
 });
 
 const FirstCard = () => {
-
     return (
         <div className={`relative z-[2] flex flex-col w-1/2 h-full justify-center items-start gap-16 p-10`}>
             <div>
@@ -19,8 +18,8 @@ const FirstCard = () => {
                 <Image
                     src={gianLogo}
                     alt="Gian Logo"
-                    width={64}
-                    height={64}
+                    width={84}
+                    height={84}
                 />
                 </Link>
                 

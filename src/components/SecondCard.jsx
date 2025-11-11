@@ -15,7 +15,7 @@ const SecondCard = () => {
                     Fullstack developer
                 </h1>
 
-                <p className="text-lg text-gray-300 leading-relaxed mb-6">
+                <p className="text-xl text-gray-300 leading-relaxed mb-6">
                     Fullstack developer experienced in building modern web applications.
                     Skilled at creating intuitive and visually appealing front-end interfaces.
                     Focused on delivering efficient, scalable, and robust back-end solutions.

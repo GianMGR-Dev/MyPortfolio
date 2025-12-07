@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react';
 import { Linkedin, Github, Mail } from 'lucide-react';
 
@@ -23,7 +22,7 @@ const App = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={link.name}
-                className={`transition duration-300 ease-in-out text-gray-500 ${link.color}`}
+                className={`transition duration-300 ease-in-out text-gray-500 ${link.color} hover:scale-115`}
               >
                 <link.icon size={28} />
               </a>

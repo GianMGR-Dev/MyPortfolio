@@ -5,7 +5,7 @@ import React from 'react';
 
 const SecondCard = () => {
     return (
-        <div className={`flex flex-col w-full md:w-1/2 h-full justify-center items-center bg-[var(--secondary-color)]`}>
+        <div className={`flex flex-col w-full md:w-1/2 h-full justify-center items-center bg-[var(--secondary-color)] border-0`}>
             <div className="flex flex-col text-white p-6 md:p-16 font-sans gap-5">
                 <p className="text-lg text-gray-400 mb-2">
                     — Introduction

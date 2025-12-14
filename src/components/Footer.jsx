@@ -9,7 +9,7 @@ const App = () => {
   ];
 
   return (
-    <footer className="w-full z-[10] bg-[var(--soft-black)] text-white py-10 md:py-16 border-t border-[#3a3d42]">
+    <footer className="w-full z-[10] bg-[var(--soft-black)] text-white py-10 md:py-16 border-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="flex flex-col items-center justify-center space-y-6">

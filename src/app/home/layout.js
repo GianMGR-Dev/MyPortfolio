@@ -11,16 +11,16 @@ const poppins = Poppins({
 const RootLayout = ({ children }) => {
     return (
         <html lang="en">
-        <body className={poppins.className}>
-            <div className='w-full min-h-screen flex flex-col'>
-                <Navbar />
-                <main className='w-full flex-1 flex flex-col items-center'>
-                    {children}
-                </main>
+            <body className={`${poppins.className} bg-[var(--background-color)] min-h-screen flex flex-col`}>
+                <div className='w-full flex-1 flex flex-col'>
+                    <Navbar />
+                    <main className='w-full flex-1 flex flex-col items-center'>
+                        {children}
+                    </main>
+                </div>
                 <Footer />
-            </div>
-        </body>
-    </html>
+            </body>
+        </html>
     );
 }
 

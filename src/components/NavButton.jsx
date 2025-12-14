@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function NavButton({ link, children }) {
+export default function NavButton({ link, children, specificClassName }) {
     const pathname = usePathname();
     const label = String(children).toLowerCase();
     const currentPath = String(pathname).toLowerCase();
@@ -12,7 +12,7 @@ export default function NavButton({ link, children }) {
     return (
         <Link href={String(link)}>
             <button
-            className={`px-2 py-2.5 rounded font-bold transition-colors ${
+            className={`px-2 py-2.5 rounded font-bold transition-colors ${specificClassName} ${
             isActive 
             ?
             "text-[var(--terciary-color)] cursor-pointer text-lg lg:text-lg xl:text-xl 2xl:text-2xl " 

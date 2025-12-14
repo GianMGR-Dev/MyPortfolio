@@ -8,9 +8,9 @@ const poppins = Poppins({
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" className='m-0 p-0 '>
       <body>
-        <main className='w-full h-dvh flex flex-col items-center justify-between gap-2'>
+        <main className='w-full h-dvh flex flex-col items-center justify-between'>
           {children}
         </main>
       </body>

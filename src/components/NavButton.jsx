@@ -12,10 +12,10 @@ export default function NavButton({ link, children }) {
     return (
         <Link href={String(link)}>
             <button
-            className={`px-4 py-2 rounded font-bold transition-colors ${
+            className={`px-2 py-2.5 rounded font-bold transition-colors ${
             isActive 
             ?
-            "text-[var(--terciary-color)] cursor-pointer after:c ontent-[''] after:block after:w-2 after:h-1.5 after:bg-[var(--terciary-color)] after:rounded-full after:mt-1 after:mx-auto text-lg lg:text-lg xl:text-xl 2xl:text-2xl " 
+            "text-[var(--terciary-color)] cursor-pointer text-lg lg:text-lg xl:text-xl 2xl:text-2xl " 
             :
             "text-gray-400 text-lg cursor-pointer text-lg lg:text-lg xl:text-xl 2xl:text-2xl transition-transform duration-100 ease-in-out hover:scale-105 hover:text-white"
             }`}

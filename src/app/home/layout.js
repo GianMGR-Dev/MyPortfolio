@@ -4,21 +4,24 @@ import { Poppins } from "next/font/google";
 import Footer from '@/components/Footer.jsx'
 
 const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "700"],
+    subsets: ["latin"],
+    weight: ["400", "700"],
 });
 
 const RootLayout = ({ children }) => {
     return (
         <html lang="en">
-        <body>
-            <main className='w-full h-dvh flex flex-col items-center justify-between'>
-                {children}
-            <Footer />
-            </main>
+        <body className={poppins.className}>
+            <div className='w-full min-h-screen flex flex-col'>
+                <Navbar />
+                <main className='w-full flex-1 flex flex-col items-center'>
+                    {children}
+                </main>
+                <Footer />
+            </div>
         </body>
     </html>
     );
 }
 
-export default  RootLayout
+export default RootLayout

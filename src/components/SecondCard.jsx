@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 import React from 'react';
 
@@ -20,9 +21,9 @@ const SecondCard = () => {
                     Focused on delivering efficient, scalable, and robust back-end solutions.
                 </p>
 
-                <a href="#" className="flex items-center text-xl text-[var(--terciary-color)] font-semibold hover:underline">
+                <Link href="/contact" className="text-center md:text-left text-center md:text-left text-xl text-[var(--terciary-color)] font-semibold hover:underline">
                     Let's do a project
-                </a>
+                </Link>
             </div>
         </div>
     );

@@ -10,7 +10,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en" className='m-0 p-0 '>
       <body>
-        <main className='w-full h-dvh flex flex-col items-center justify-between'>
+        <main className='w-full min-h-screen flex flex-col items-center justify-between'>
           {children}
         </main>
       </body>

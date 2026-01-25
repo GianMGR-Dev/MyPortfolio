@@ -13,7 +13,7 @@ const SocialNetworks = () => {
             <div className="flex space-x-4">
             {socialLinks.map((link) => (
                 <a
-                link-key={link.name}
+                key={link.name}
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"

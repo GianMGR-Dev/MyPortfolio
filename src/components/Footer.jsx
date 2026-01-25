@@ -22,7 +22,7 @@ const App = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={link.name}
-                className={`transition duration-300 ease-in-out text-gray-500 ${link.color} hover:scale-115`}
+                className={`transition duration-300 ease-in-out text-gray-500 ${link.color} hover:scale-110`}
               >
                 <link.icon size={28} />
               </a>

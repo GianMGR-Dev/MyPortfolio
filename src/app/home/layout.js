@@ -11,7 +11,7 @@ const poppins = Poppins({
 const RootLayout = ({ children }) => {
     return (
         <html lang="en">
-            <body className={`${poppins.className} bg-[var(--background-color)] min-h-screen flex flex-col`}>
+            <body className={`${poppins.className} bg-[var(--principal-color  )] min-h-screen flex flex-col`}>
                 <div className='w-full flex-1 flex flex-col'>
                     <Navbar />
                     <main className='w-full flex-1 flex flex-col items-center'>

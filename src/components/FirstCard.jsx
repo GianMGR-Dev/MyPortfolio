@@ -29,7 +29,7 @@ const FirstCard = () => {
                 <h2 className={`text-white font-semibold z-[2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl ${poppins.className}`}>Gian</h2>
                 <h2 className={`text-white font-semibold z-[2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl ${poppins.className} after:content-[''] after:block after:w-26  after:h-1.5  after:rounded-full after:bg-[var(--terciary-color)] after:mt-6`}>Gutierrez.</h2>
             </div>
-            <Image className='absolute z-[-10] right-0 bottom-0 w-[260px] sm:w-[320] md:w-[340px] lg:w-[350px] xl:w-[400px] 2xl:w-[480px]' src={gianImage} alt="Gian Gutierrez" />
+            <Image className='absolute z-[-10] right-0 bottom-0 w-[260px] sm:w-[320px] md:w-[340px] lg:w-[350px] xl:w-[400px] 2xl:w-[480px]' src={gianImage} alt="Gian Gutierrez" />
             <SocialNetworks  />
         </div>
     )
